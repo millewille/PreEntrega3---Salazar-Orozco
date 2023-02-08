@@ -1,0 +1,50 @@
+/* --------------------------------Contact-------------------------------- */
+
+h1{
+    font-family: bold;
+    font-size: 40px;
+}
+
+.titleContactMe{
+    text-align: center;
+}
+
+#divForm{
+    width: 100%;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+label{
+    text-align: left;
+    font-family: semi_bold;
+    font-size: 14px;
+}
+
+input:focus, textarea:focus {
+    outline: #FF6A39;
+    border: 2px #FF6A39 solid;
+}
+
+#submitButton{
+    margin-top: 40px;
+    /* width: 498px; */
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#submitButton:hover{
+    background-color: #3E3E51;
+}
+
+.sectionContact{
+    background-color: #F3F3F8;
+}
+

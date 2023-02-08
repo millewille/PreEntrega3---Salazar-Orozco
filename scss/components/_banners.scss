@@ -1,0 +1,63 @@
+/* --------------------------------Home-------------------------------- */
+
+.homePreviews{
+    width: 100%;
+    height: 505px;
+}
+
+.bannerHome{
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+    text-align: center;
+    align-items: center;
+    animation-name: bannerHome;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1.8s;
+    margin-right: 50%;
+
+    &__previewTitles{
+        font-family: bold;
+        margin: 0;
+        font-size: 50px;
+    }
+
+    &__previewSubtitles{
+            font-family: regular;
+            font-size: 20px;
+            margin-top: 6px;
+    }
+}
+
+#previewButton1{
+    margin-top: 40px;
+}
+
+.previewButtons1{
+    height: 48px;
+    width: 184px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-family: regular;
+    cursor: pointer;
+}
+
+.previewButtons1:hover{
+    background-color: #3E3E51;
+}
+
+.imageSolo2{
+    animation-name: imageSolo2;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    overflow-x: hidden;
+}
+
+#previewButton2{
+    margin-top: 30px;
+}

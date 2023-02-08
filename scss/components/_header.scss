@@ -1,0 +1,20 @@
+#navMenu, #navIcons{
+    display: flex;
+
+}
+
+.liNavMenu{
+    list-style: none;
+    font-family: semi_bold;
+    font-size: 20px;
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.liNavIcons{
+    margin-left: 28px;
+    list-style: none;
+}

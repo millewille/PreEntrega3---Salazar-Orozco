@@ -1,0 +1,24 @@
+/* --------------------------------Portfolio-------------------------------- */
+
+.imgProduct1, .imgProduct2, .imgProduct3, .imgProduct4, .imgProduct5, .imgProduct6{
+    img{
+        transition: transform 1s;
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+}
+
+.divTextProduct{
+    font-family: regular;
+    margin-top: 30px;
+}
+
+h1{
+    font-family: bold;
+    font-size: 40px;
+}
+
+.titlePortfolio{
+    text-align: center;
+}

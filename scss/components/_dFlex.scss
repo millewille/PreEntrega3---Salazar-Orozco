@@ -1,0 +1,10 @@
+/* --------------------------------Portfolio-------------------------------- */
+
+#d-flex{
+    &__imgProduct1, &__imgProduct2, &__imgProduct3, &__imgProduct4, &__imgProduct5, &__imgProduct6{
+        width: 505px;
+    height: 505px;
+    display: block;
+    overflow: hidden;
+    }
+}

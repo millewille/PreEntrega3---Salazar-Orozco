@@ -1,0 +1,503 @@
+#navMenu, #navIcons {
+  display: flex;
+}
+
+.liNavMenu {
+  list-style: none;
+  font-family: semi_bold;
+  font-size: 20px;
+}
+.liNavMenu a {
+  text-decoration: none;
+  color: black;
+}
+
+.liNavIcons {
+  margin-left: 28px;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0px;
+}
+
+footer {
+  width: 100%;
+  height: 228px;
+  padding-left: 104px;
+  padding-right: 104px;
+}
+
+.inputClass, textarea {
+  width: 260px;
+  font-family: regular;
+  font-size: 16px;
+  padding: 18px;
+  border-radius: none;
+  border-color: black;
+  border: 2px solid;
+}
+
+footer div {
+  margin-top: 80px;
+  flex-direction: column;
+}
+
+#socialMediaFooter {
+  margin-top: 40px;
+}
+
+.inputClass, textarea {
+  width: 160px;
+  font-family: regular;
+  font-size: 16px;
+  padding: 18px;
+  border-radius: none;
+  border-color: black;
+  border: 2px solid;
+}
+
+/* --------------------------------Footer-------------------------------- */
+#socialMediaFooter {
+  list-style: none;
+  display: flex;
+}
+
+.footerTop, .footerBottom {
+  display: flex;
+  justify-content: space-between;
+  font-family: regular;
+}
+
+.iconInstagramFooter {
+  margin-left: 16px;
+}
+
+.footerTop {
+  margin-top: 64px;
+  margin-bottom: 30px;
+}
+
+/* --------------------------------Products-------------------------------- */
+#gridProducts {
+  width: 1050px;
+  margin: 0 auto;
+  place-items: center;
+}
+#gridProducts div {
+  height: 607px;
+}
+
+/* --------------------------------New-------------------------------- */
+#gridNews {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 42px;
+}
+#gridNews__newProduct1, #gridNews__newProduct2, #gridNews__newProduct3, #gridNews__newProduct4 {
+  height: 630px;
+  width: 630px;
+  display: block;
+  overflow: hidden;
+}
+
+.newProduct1 > img, .newProduct2 > img, .newProduct3 > img, .newProduct4 > img {
+  transition: transform 1s;
+}
+
+.newProduct1 > img:hover, .newProduct2 > img:hover, .newProduct3 > img:hover, .newProduct4 > img:hover {
+  transform: scale(1.2);
+}
+
+/* --------------------------------Home-------------------------------- */
+.previewGrid1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  grid-column: 1;
+  place-content: center;
+  width: 100%;
+  height: 505px;
+  background-image: url("./imgs/shadow1.jpg");
+  background-size: cover;
+}
+
+.previewGrid2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  grid-column: 2;
+  place-content: center;
+  width: 100%;
+  height: 505px;
+  background-image: url("./imgs/shadow2.jpg");
+  background-size: cover;
+}
+
+.previewGrid3 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  grid-column: 3;
+  place-content: center;
+  width: 100%;
+  height: 505px;
+  background-image: url("./imgs/shadow3.jpg");
+  background-size: cover;
+}
+
+.gridTitles {
+  margin-bottom: 32px;
+  font-family: bold;
+  font-size: 32px;
+  color: white;
+}
+
+.arrowButtonGrid {
+  font-size: 16px;
+  font-family: semi_bold;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  margin: 0 auto;
+  border-bottom: 2px solid white;
+  padding-bottom: 12px;
+}
+
+.arrowButtonGrid img {
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+@font-face {
+  font-family: "bold";
+  src: url("./fonts/Barlow/Barlow-Bold.ttf");
+}
+@font-face {
+  font-family: "extra_bold";
+  src: url("./fonts/Barlow/Barlow-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "regular";
+  src: url("./fonts/Barlow/Barlow-Regular.ttf");
+}
+@font-face {
+  font-family: "semi_bold";
+  src: url("./fonts/Barlow/Barlow-SemiBold.ttf");
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .divTextBanner {
+    width: 100%;
+  }
+  .imageSolo1 {
+    height: 0px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  #gridTwoPositionsBanner1, #gridTwoPositionsBanner2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .previewTitles {
+    font-size: 10px;
+  }
+  .imageSolo1 {
+    -webkit-animation-name: imageSolo1;
+            animation-name: imageSolo1;
+    -webkit-animation-fill-mode: backwards;
+            animation-fill-mode: backwards;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+    overflow-x: hidden;
+  }
+  @-webkit-keyframes imageSolo1 {
+    0% {
+      opacity: 0%;
+    }
+    100% {
+      opacity: 100%;
+    }
+  }
+  @keyframes imageSolo1 {
+    0% {
+      opacity: 0%;
+    }
+    100% {
+      opacity: 100%;
+    }
+  }
+}
+@media only screen and (min-width: 576px) {
+  #gridTwoPositionsBanner1, #gridTwoPositionsBanner2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .imageSolo1 {
+    height: 505px;
+    -webkit-animation-name: imageSolo1;
+            animation-name: imageSolo1;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+    -webkit-animation-duration: 1.8s;
+            animation-duration: 1.8s;
+    overflow: hidden;
+  }
+  @-webkit-keyframes imageSolo1 {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  @keyframes imageSolo1 {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  .aboutMeText {
+    padding-left: 20px;
+  }
+  .inputClass, textarea {
+    width: 460px;
+    font-family: regular;
+    font-size: 16px;
+    padding: 18px;
+    border-radius: none;
+    border-color: black;
+    border: 2px solid;
+  }
+}
+/* --------------------------------Footer-------------------------------- */
+@media only screen and (max-width: 390px) {
+  footer {
+    width: 100%;
+    height: 228px;
+    padding-left: 70px;
+  }
+}
+/* --------------------------------Contact-------------------------------- */
+h1 {
+  font-family: bold;
+  font-size: 40px;
+}
+
+.titleContactMe {
+  text-align: center;
+}
+
+#divForm {
+  width: 100%;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+label {
+  text-align: left;
+  font-family: semi_bold;
+  font-size: 14px;
+}
+
+input:focus, textarea:focus {
+  outline: #FF6A39;
+  border: 2px #FF6A39 solid;
+}
+
+#submitButton {
+  margin-top: 40px;
+  /* width: 498px; */
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#submitButton:hover {
+  background-color: #3E3E51;
+}
+
+.sectionContact {
+  background-color: #F3F3F8;
+}
+
+/* --------------------------------About-------------------------------- */
+.aboutSection {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+p {
+  margin-top: 35px;
+}
+
+#title {
+  font-family: bold;
+  font-size: 40px;
+}
+
+.aboutParagraph {
+  font-family: regular;
+  font-size: 16px;
+}
+
+.aboutMeText {
+  width: 354px;
+}
+
+/* --------------------------------Portfolio-------------------------------- */
+#d-flex__imgProduct1, #d-flex__imgProduct2, #d-flex__imgProduct3, #d-flex__imgProduct4, #d-flex__imgProduct5, #d-flex__imgProduct6 {
+  width: 505px;
+  height: 505px;
+  display: block;
+  overflow: hidden;
+}
+
+/* --------------------------------Home-------------------------------- */
+@-webkit-keyframes bannerHome {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+    transform: translateX(50%);
+  }
+}
+@keyframes bannerHome {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+    transform: translateX(50%);
+  }
+}
+@-webkit-keyframes imageSolo2 {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@keyframes imageSolo2 {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+/* --------------------------------Portfolio-------------------------------- */
+.imgProduct1 img, .imgProduct2 img, .imgProduct3 img, .imgProduct4 img, .imgProduct5 img, .imgProduct6 img {
+  transition: transform 1s;
+}
+.imgProduct1 img:hover, .imgProduct2 img:hover, .imgProduct3 img:hover, .imgProduct4 img:hover, .imgProduct5 img:hover, .imgProduct6 img:hover {
+  transform: scale(1.2);
+}
+
+.divTextProduct {
+  font-family: regular;
+  margin-top: 30px;
+}
+
+h1 {
+  font-family: bold;
+  font-size: 40px;
+}
+
+.titlePortfolio {
+  text-align: center;
+}
+
+/* --------------------------------Home-------------------------------- */
+.homePreviews {
+  width: 100%;
+  height: 505px;
+}
+
+.bannerHome {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+  text-align: center;
+  align-items: center;
+  -webkit-animation-name: bannerHome;
+          animation-name: bannerHome;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-duration: 1.8s;
+          animation-duration: 1.8s;
+  margin-right: 50%;
+}
+.bannerHome__previewTitles {
+  font-family: bold;
+  margin: 0;
+  font-size: 50px;
+}
+.bannerHome__previewSubtitles {
+  font-family: regular;
+  font-size: 20px;
+  margin-top: 6px;
+}
+
+#previewButton1 {
+  margin-top: 40px;
+}
+
+.previewButtons1 {
+  height: 48px;
+  width: 184px;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-family: regular;
+  cursor: pointer;
+}
+
+.previewButtons1:hover {
+  background-color: #3E3E51;
+}
+
+.imageSolo2 {
+  -webkit-animation-name: imageSolo2;
+          animation-name: imageSolo2;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  overflow-x: hidden;
+}
+
+#previewButton2 {
+  margin-top: 30px;
+}/*# sourceMappingURL=main.css.map */

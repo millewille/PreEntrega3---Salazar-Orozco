@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="kamesign, portfolio, contact, form">
+    <meta name="description" content="Contact the painter turtle">
+    <title>Contact Kame</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Barlow' rel='stylesheet'>
+    <link rel="stylesheet" href="../main.csss">
+    <style>
+        body {
+            font-family: 'Barlow';
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar sticky-top fixed-top navbar-expand-lg navbar-light bg-light"
+            style="background-color: #ffffff;">
+            <div class="container-fluid">
+                <a href="../index.html" class="navbar-brand">
+                    <img src="../imgs/logo_color.svg" alt="">
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse md:flex justify-content-md-end" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="./portfolio.html" class="nav-item nav-link">PORTFOLIO</a>
+                        <a href="./new.html" class="nav-item nav-link">NEW</a>
+                        <a href="./about.html" class="nav-item nav-link">ABOUT</a>
+                        <a href="./contact.html" class="nav-item nav-link">CONTACT</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="sectionContact py-5">
+
+            <div class="text-center">
+                <h1>
+                    Contact me
+                </h1>
+            </div>
+
+            <div class="">
+                <form class="container">
+                    <div class="mb-3 mt-3 mx-auto">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name"  class="form-control inputClass">
+                    </div>
+                    <div class="mb-3 mt-3  mx-auto">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="example@email.com"  class="form-control inputClass">
+                    </div>
+                    <div class="mb-3  mx-auto">
+                        <label for="message">Message</label>
+                        <textarea name="" id="message" cols="30" rows="10" class="form-control inputClass"></textarea>
+                    </div>
+                    <input id="submitButton" class="mx-auto inputClass" type="submit" value="Send">
+                </form>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="d-flex flex-column justify-content-center w-100">
+        <div class="d-flex align-items-sm-center justify-content-between w-100">
+            <div class="">
+                <img src="../imgs/logo_gray.svg">
+            </div>
+            <div class="">
+                <ul id="socialMediaFooter">
+                    <li class="iconFacebookFooter">
+                        <a target="_blank" href="https://www.facebook.com/">
+                            <img src="../imgs/icon_facebook.svg">
+                        </a>
+                    </li>
+                    <li class="iconInstagramFooter">
+                        <a target="_blank" href="https://www.instagram.com/">
+                            <img src="../imgs/icon_instagram.svg">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <span class="mt-5">
+            Kamesign. All rights reserved.
+        </span>
+    </footer>
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
